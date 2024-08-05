@@ -1,0 +1,46 @@
+/* src/App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #d4e75d;
+}
+
+.counter-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  height: 150px;
+}
+
+.counter-container h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.counter-container button {
+  font-size: 25px;
+  padding: 5px 15px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #2de60c;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-container button:hover {
+  background-color: #3dd60e;
+}
+
+.counter-container button:active {
+  background-color: #36f714;
+}
