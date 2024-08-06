@@ -1,7 +1,5 @@
-// src/store.js
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 
-// Створюємо slice для лічильника
 const counterSlice = createSlice({
   name: "counter",
   initialState: { value: 0 },
